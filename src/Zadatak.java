@@ -120,7 +120,7 @@ public class Zadatak {
         System.out.println(l+"*0.02");
         l=0;
 
-        while(n>=0.01){
+        while(n<0.01 && n>0.0099){
             l++;
             n=n-0.01;
         }
