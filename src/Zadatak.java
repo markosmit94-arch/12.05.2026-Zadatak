@@ -126,6 +126,5 @@ public class Zadatak {
         }
 
         System.out.println(l+"*0.01");
-        l=0;
     }
 }
