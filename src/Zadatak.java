@@ -13,7 +13,9 @@ public class Zadatak {
             n=n-500;
         }
 
-        System.out.println(l+"*500");
+        if(l>0){
+            System.out.println(l+"*500");
+        }
         l=0;
 
         while(n>=200){
@@ -21,15 +23,20 @@ public class Zadatak {
             n=n-200;
         }
 
-        System.out.println(l+"*200");
+        if(l>0){
+
+            System.out.println(l+"*200");
+        }
         l=0;
 
-        while(n>=100){
+        while(n>=100) {
             l++;
-            n=n-100;
+            n = n - 100;
         }
 
-        System.out.println(l+"*100");
+        if(l>0){
+            System.out.println(l+"*100");
+        }
         l=0;
 
         while(n>=50){
@@ -37,7 +44,9 @@ public class Zadatak {
             n=n-50;
         }
 
-        System.out.println(l+"*50");
+        if(l>0){
+            System.out.println(l+"*50");
+        }
         l=0;
 
         while(n>=20){
@@ -45,7 +54,9 @@ public class Zadatak {
             n=n-20;
         }
 
-        System.out.println(l+"*20");
+        if(l>0){
+            System.out.println(l+"*20");
+        }
         l=0;
 
         while(n>=10){
@@ -53,7 +64,9 @@ public class Zadatak {
             n=n-10;
         }
 
-        System.out.println(l+"*10");
+        if(l>0){
+            System.out.println(l+"*10");
+        }
         l=0;
 
         while(n>=5){
@@ -61,7 +74,9 @@ public class Zadatak {
             n=n-5;
         }
 
-        System.out.println(l+"*5");
+        if(l>0){
+            System.out.println(l+"*5");
+        }
         l=0;
 
         while(n>=2){
@@ -69,7 +84,9 @@ public class Zadatak {
             n=n-2;
         }
 
-        System.out.println(l+"*2");
+        if(l>0){
+            System.out.println(l+"*2");
+        }
         l=0;
 
         while(n>=1){
@@ -77,7 +94,9 @@ public class Zadatak {
             n=n-1;
         }
 
-        System.out.println(l+"*1");
+        if(l>0){
+            System.out.println(l+"*1");
+        }
         l=0;
 
         while(n>=0.50){
@@ -85,7 +104,9 @@ public class Zadatak {
             n=n-0.50;
         }
 
-        System.out.println(l+"*0.50");
+        if(l>0){
+            System.out.println(l+"*0.50");
+        }
         l=0;
 
         while(n>=0.20){
@@ -93,7 +114,9 @@ public class Zadatak {
             n=n-0.20;
         }
 
-        System.out.println(l+"*0.20");
+        if(l>0){
+            System.out.println(l+"*0.20");
+        }
         l=0;
 
         while(n>=0.10){
@@ -101,7 +124,9 @@ public class Zadatak {
             n=n-0.10;
         }
 
-        System.out.println(l+"*0.10");
+        if(l>0){
+            System.out.println(l+"*0.10");
+        }
         l=0;
 
         while(n>=0.05){
@@ -109,7 +134,9 @@ public class Zadatak {
             n=n-0.05;
         }
 
-        System.out.println(l+"*0.05");
+        if(l>0){
+            System.out.println(l+"*0.05");
+        }
         l=0;
 
         while(n>=0.02){
@@ -117,7 +144,9 @@ public class Zadatak {
             n=n-0.02;
         }
 
-        System.out.println(l+"*0.02");
+        if(l>0){
+            System.out.println(l+"*0.02");
+        }
         l=0;
 
         while(n<0.01 && n>0.0099){
@@ -125,6 +154,8 @@ public class Zadatak {
             n=n-0.01;
         }
 
-        System.out.println(l+"*0.01");
+        if(l>0){
+            System.out.println(l+"*0.01");
+        }
     }
 }
